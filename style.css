@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #2a9d8f;
+  height: 100vh;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: #e9c46a;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.frame {
+  border: 1px solid #484848;
+  height: 100%;
+}
