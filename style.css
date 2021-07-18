@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-red-color: #e06262;
+}
+
+.main-red-color {
+  color: var(--main-red-color);
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -25,4 +37,24 @@ html {
 .frame {
   border: 1px solid #484848;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-btn {
+  background-color: unset;
+  border: unset;
+  font-family: "Bungee", cursive;
+  font-size: 20px;
 }
